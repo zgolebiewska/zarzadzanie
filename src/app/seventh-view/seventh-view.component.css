@@ -1,0 +1,49 @@
+body{
+  height: 719px;
+  width: 360px;
+  outline: 2px solid black;
+}
+.navbar{
+  width: 360px;
+  height: 53px;
+  outline: 2px solid black;
+  display:inline-grid;
+  grid-template-columns: auto auto;
+}
+.first_img{
+  width:47px;
+  height:35px;
+  margin-left:14px;
+  margin-top:9px;
+}
+.second_img{
+  width:37px;
+  height:37px;
+  margin-top:8px;
+  margin-left: 230px;
+}
+
+.main{
+  margin-top: 40px;
+  margin-left: 30px;
+  display: grid;
+  grid-template-columns: 20% 40% 30%;
+  row-gap: 20px;
+
+}
+a{
+  text-decoration: none;
+}
+.text{
+  margin-top: 10px;
+  font-size: 15px;
+}
+.plant_button{
+  align-items: center;
+  background-color: #B8D6B0;
+  border: none;
+  padding: 20px 0px;
+  font-size: 15px;
+  font-weight: bold;
+  cursor: pointer;
+}
