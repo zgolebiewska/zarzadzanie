@@ -7,7 +7,7 @@
       "**/node_modules/**"
     ],
     "rewrites": [ {
-      "source": "**",
+      "source": "/firstView",
       "destination": "/first-view.component.html"
     } ]
   }
